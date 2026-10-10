@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Álvaro · Session 3 · Pronouns, Nouns, Articles & Basic Structures · Expanded</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Patrick+Hand&display=swap');
+:root{
+  --navy:#17324D;--navy2:#0d2f52;--blue:#2E8FB8;--sky:#EAF6FD;--mint:#EAF7F2;
+  --yellow:#FFD75E;--yellow2:#FFF4C7;--cream:#FFFDF8;--white:#fff;--pink:#FFF1F4;
+  --text:#17324D;--muted:#667D90;--line:#D7E3EB;--green:#2F8B69;--red:#C4535D;
+  --purple:#8E73C9;--shadow:0 12px 28px rgba(23,50,77,.10)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#F4F1EA;color:var(--text);font-family:'Nunito',Arial,sans-serif}button{font:inherit}a{color:inherit;text-decoration:none}
+.topbar{position:sticky;top:0;z-index:50;background:linear-gradient(90deg,var(--navy2),#1B5D8C);color:#fff;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+.topbar .inner{max-width:1180px;margin:auto;padding:11px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{font-weight:900}.brand small{display:block;font-size:11px;color:#D6E8F4;margin-top:2px}.navlinks{display:flex;gap:8px;flex-wrap:wrap}.navlinks a{font-size:12px;font-weight:900;padding:8px 11px;border-radius:999px;background:rgba(255,255,255,.10)}
+.progress-shell{position:sticky;top:62px;z-index:45;height:7px;background:#DCE6EC}.progress{height:100%;width:0;background:linear-gradient(90deg,#42A89D,var(--yellow));transition:.18s}
+.hero{background:linear-gradient(135deg,var(--cream) 67%,var(--sky) 67%);padding:58px 20px 48px;border-bottom:1px solid var(--line)}.wrap{max-width:1120px;margin:auto}
+.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:center}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+.hero h1{font-size:64px;line-height:.93;letter-spacing:-2px;margin:10px 0 14px}.hero h1 em{font-family:'Patrick Hand';font-style:normal;font-weight:400;background:linear-gradient(transparent 72%,var(--yellow) 72%)}
+.hero p{font-size:18px;font-weight:700;color:#35536B;max-width:720px}.chips,.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.chip,.pill{border:1px solid var(--line);background:#fff;padding:8px 11px;border-radius:999px;font-weight:800;font-size:12px}
+.note{background:var(--yellow);padding:26px;border-radius:22px;font-family:'Patrick Hand';font-size:30px;line-height:1.05;text-align:center;transform:rotate(1deg);box-shadow:var(--shadow)}
+section{padding:44px 20px}.white{background:#fff}.sky{background:#F3FAFD}.mint{background:#F3FBF7}.section-title{font-size:34px;margin:0;font-weight:900;letter-spacing:-1px}.underline{width:84px;height:6px;background:var(--yellow);border-radius:99px;margin:8px 0 18px}
+.lead{font-size:16px;color:var(--muted);font-weight:700;max-width:920px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:0 6px 15px rgba(23,50,77,.05)}.card h3{margin:0 0 8px;font-size:17px}.card p{margin:0;font-size:13px;line-height:1.55}.card.skyc{background:var(--sky)}.card.mintc{background:var(--mint)}.card.yellowc{background:var(--yellow2)}.card.pinkc{background:var(--pink)}
+.metric strong{font-size:30px;display:block}.metric{font-size:12px;font-weight:800}.bookref{margin-top:14px;border:2px dashed #B9DAE9;background:#fff;border-radius:14px;padding:12px 14px;display:flex;gap:10px;align-items:center;font-weight:800;font-size:13px}.badge{background:var(--purple);color:#fff;border-radius:8px;padding:5px 8px;font-size:10px;font-weight:900}
+.rule{padding:16px;border-radius:15px;background:white;border:1px solid var(--line);margin:10px 0}.rule b{color:var(--blue)}.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:20px}.time{background:white;border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center}.time strong{display:block;font-size:21px}.time span{font-size:11px;color:var(--muted);font-weight:900}
+.compare{width:100%;border-collapse:collapse;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 5px 14px rgba(23,50,77,.05)}.compare th,.compare td{border:1px solid var(--line);padding:12px 13px;text-align:left;font-size:13px;vertical-align:top}.compare th{background:var(--sky);font-size:12px}.compare td:first-child{font-weight:900}
+.example{background:#fff;border-left:5px solid var(--yellow);padding:10px 12px;border-radius:9px;margin:8px 0;font-size:14px;font-weight:800}.vocab{display:flex;flex-wrap:wrap;gap:8px}.vocab span{background:#fff;border:1px solid var(--line);padding:8px 11px;border-radius:12px;font-size:12px;font-weight:800}
+.assess-grid{display:grid;grid-template-columns:220px 1fr;gap:20px;margin-top:20px}.side{position:sticky;top:92px;height:max-content;background:#F4F8FA;padding:8px;border-radius:16px;border:1px solid var(--line)}.side button{width:100%;border:0;background:transparent;color:var(--navy);text-align:left;border-radius:10px;padding:11px;font-weight:900;cursor:pointer}.side button small{display:block;color:var(--muted);font-weight:700;margin-top:3px}.side button.active{background:var(--navy);color:#fff}.side button.active small{color:#D9E9F3}
+.panel{display:none}.panel.active{display:block}.qcard{background:#fff;border:1px solid var(--line);border-radius:17px;padding:17px;margin:0 0 12px;box-shadow:0 5px 14px rgba(23,50,77,.05)}.qnum{font-size:11px;color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:.08em}.qtext{font-size:15px;font-weight:900;margin:6px 0 11px}.options{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.option{border:2px solid #D9E4EA;background:#fff;color:var(--navy);padding:10px;border-radius:11px;text-align:left;cursor:pointer;font-weight:800}.option:hover:not(:disabled){border-color:var(--blue);background:#F6FBFE}.option.correct{border-color:var(--green);background:#EAF7F1;color:#1D6A50}.option.wrong{border-color:var(--red);background:#FFF0F1;color:#963844}.option:disabled{cursor:default}.feedback{display:none;margin-top:9px;border-radius:10px;padding:9px 11px;font-size:12px;font-weight:800}.feedback.show{display:block}.feedback.good{background:#EAF7F1;color:#1D6A50}.feedback.bad{background:#FFF0F1;color:#963844}
+.scorebox{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--navy);color:#fff;border-radius:16px;padding:14px 16px;margin-bottom:14px}.scorebox strong{font-size:26px}.mini-progress{flex:1;min-width:160px;height:9px;background:rgba(255,255,255,.18);border-radius:999px;overflow:hidden}.mini-fill{height:100%;width:0;background:var(--yellow);transition:.2s}
+.timer{display:flex;align-items:center;gap:10px;background:var(--yellow2);border:1px solid #ECD373;padding:12px 14px;border-radius:14px;margin-bottom:14px}.timer strong{font-size:25px}.btn{border:0;border-radius:999px;padding:10px 15px;font-weight:900;cursor:pointer}.btn.primary{background:var(--navy);color:#fff}.btn.secondary{background:#fff;color:var(--navy);border:2px solid var(--navy)}
+.errorlog{width:100%;border-collapse:collapse;margin-top:12px}.errorlog th,.errorlog td{border:1px solid var(--line);padding:10px;font-size:12px}.errorlog th{background:var(--sky)}.errorlog td[contenteditable="true"]{background:#fff;min-width:140px}
+.callout{border-radius:18px;padding:18px;background:var(--navy);color:#fff}.callout h3{margin-top:0}.callout .hand{font-family:'Patrick Hand';font-size:27px;color:var(--yellow)}.footer{background:var(--navy);color:#fff;padding:32px 20px;text-align:center}.footer strong{font-family:'Patrick Hand';font-size:31px}
+.match-choice{width:100%;border:2px solid #D9E4EA;background:#fff;color:var(--navy);padding:11px;border-radius:12px;text-align:left;cursor:pointer;font-weight:800;margin-bottom:8px}.match-choice.selected{border-color:var(--purple);background:#F4F0FB}.match-choice.done{border-color:var(--green);background:#EAF7F1;color:#1D6A50;cursor:default}.match-choice.bad{border-color:var(--red);background:#FFF0F1;color:#963844}
+.memory-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.memory-card{min-height:92px;border:0;border-radius:14px;background:linear-gradient(135deg,var(--navy),#245F8C);color:#fff;cursor:pointer;padding:10px;display:grid;place-items:center;text-align:center;font-weight:900;box-shadow:0 6px 14px rgba(23,50,77,.12);position:relative}.memory-card .mem-num{position:absolute;top:7px;left:8px;width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;font-size:11px}.memory-card .mem-face{opacity:0;transform:scale(.94);transition:.15s}.memory-card.flipped,.memory-card.matched{background:#fff;color:var(--navy);border:2px solid #B9DCEA}.memory-card.flipped .mem-face,.memory-card.matched .mem-face{opacity:1;transform:none}.memory-card.matched{background:#EAF7F1;border-color:var(--green);cursor:default}
+@media(max-width:900px){.hero-grid,.assess-grid{grid-template-columns:1fr}.side{position:static;display:grid;grid-template-columns:repeat(2,1fr)}.grid4,.grid3,.timeline{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:50px}.navlinks{display:none}}
+@media(max-width:700px){.memory-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.grid4,.grid3,.grid2,.timeline,.options,.side{grid-template-columns:1fr}.hero h1{font-size:43px}.hero{padding-top:38px}.note{font-size:25px}.memory-grid{grid-template-columns:repeat(2,1fr)}}
+
+.formula{font-family:'Patrick Hand';font-size:25px;color:var(--navy);background:var(--yellow2);border-radius:14px;padding:12px 14px;margin:10px 0}
+.mini-label{display:inline-block;background:var(--navy);color:#fff;border-radius:999px;padding:4px 8px;font-size:10px;font-weight:900;margin-bottom:7px}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+.strip div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center;font-size:12px;font-weight:900}
+.context-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.context{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}
+.context strong{display:block;color:var(--blue);font-size:12px;margin-bottom:6px}
+.review-note{background:linear-gradient(135deg,var(--mint),var(--sky));border:1px solid var(--line);border-radius:16px;padding:15px;margin-top:14px}
+@media(max-width:900px){.strip{grid-template-columns:repeat(2,1fr)}.context-grid{grid-template-columns:1fr}}
+
+.explain{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;margin:14px 0;box-shadow:0 5px 14px rgba(23,50,77,.05)}
+.explain h3{margin:0 0 8px;font-size:18px}.explain p{margin:7px 0;font-size:14px;line-height:1.65}
+.keyidea{background:var(--yellow2);border-left:5px solid var(--yellow);border-radius:12px;padding:13px 15px;margin:12px 0;font-weight:800}
+.structure{background:var(--sky);border-radius:14px;padding:12px 14px;margin:10px 0;font-weight:900}
+.trap{background:#FFF0F1;border:1px solid #F0C6CC;border-radius:13px;padding:12px 14px;margin:10px 0;color:#8F3C47;font-weight:800}
+.check{background:#EAF7F1;border:1px solid #B7DEC9;border-radius:13px;padding:12px 14px;margin:10px 0;color:#1F6D53;font-weight:800}
+.microgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0}
+.micro{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}.micro strong{display:block;color:var(--blue);font-size:12px;margin-bottom:6px}
+.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}.flow div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px;text-align:center;font-size:12px;font-weight:800}.flow b{display:block;font-size:17px;color:var(--navy);margin-bottom:4px}
+.own-resource{border:2px dashed #B9DAE9;background:#F8FCFE;border-radius:16px;padding:15px 16px;margin:14px 0}.own-resource .tag{display:inline-block;background:var(--purple);color:#fff;border-radius:999px;padding:4px 8px;font-size:10px;font-weight:900;margin-bottom:8px}
+.contrast-box{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}.contrast-good,.contrast-bad{border-radius:14px;padding:14px;font-size:13px;font-weight:800}.contrast-good{background:#EAF7F1;color:#1F6D53;border:1px solid #B7DEC9}.contrast-bad{background:#FFF0F1;color:#8F3C47;border:1px solid #F0C6CC}
+@media(max-width:900px){.microgrid,.flow,.contrast-box{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav class="topbar"><div class="inner">
+<div class="brand">English with Mr. Rengifo<small>Álvaro · Exam Preparation · Session 3</small></div>
+<div class="navlinks"><a href="#overview">Overview</a><a href="#grammar">Grammar</a><a href="#practice">Practice</a><a href="#timed">Timed Block</a><a href="#gamezone">Game Zone</a><a href="#homework">Homework</a></div>
+</div></nav>
+<div class="progress-shell"><div class="progress" id="scrollProgress"></div></div>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<div class="eyebrow">Session 3 · Pronouns, Nouns, Articles & Basic Structures · American English</div>
+<h1>Accuracy starts<br><em>with the basics.</em></h1>
+<p>Build control of pronouns, possession, nouns, articles, demonstratives and <b>there is / there are</b> through fuller explanations, guided reasoning and exam-focused examples.</p>
+<div class="chips"><span class="chip">subject / object pronouns</span><span class="chip">possessives</span><span class="chip">count / noncount</span><span class="chip">singular / plural</span><span class="chip">a / an / the / —</span><span class="chip">there is / are</span></div>
+</div>
+<div class="note">Small structures.<br>Big difference.<br><b>Accuracy matters.</b></div>
+</div></header>
+
+<section id="overview"><div class="wrap">
+<h2 class="section-title">What we are doing today</h2><div class="underline"></div>
+<p class="lead">Session 3 consolidates core structures that often create fast errors in objective exams. This expanded version slows each system down first, explains the logic behind it, and then rebuilds speed through guided and timed practice.</p>
+<div class="grid4">
+<div class="card skyc metric"><strong>6</strong>core structure groups</div>
+<div class="card mintc metric"><strong>24</strong>guided practice items</div>
+<div class="card yellowc metric"><strong>12</strong>timed cumulative questions</div>
+<div class="card pinkc metric"><strong>1</strong>error log</div>
+</div>
+<div class="timeline"><div class="time"><strong>10'</strong><span>SESSIONS 1–2 RETRIEVAL</span></div><div class="time"><strong>25'</strong><span>PRONOUNS & POSSESSION</span></div><div class="time"><strong>20'</strong><span>NOUNS & ARTICLES</span></div><div class="time"><strong>25'</strong><span>EXAM PRACTICE</span></div><div class="time"><strong>10'</strong><span>ERROR LOG</span></div></div>
+<div class="bookref"><span class="badge">REFERENCE</span><span>Grammar in Use Intermediate · 4th Edition · selected noun, article and possession units. Subject/object pronouns and demonstratives are developed more fully in this resource because the book assumes much of that knowledge already.</span></div>
+</div></section>
+
+<section class="white" id="grammar"><div class="wrap">
+<h2 class="section-title">1 · Subject & Object Pronouns</h2><div class="underline"></div>
+<div class="own-resource"><span class="tag">RESOURCE EMPHASIS</span><p><b>This topic needs extra development here.</b> The reference book does not provide a full basic review of subject and object pronouns, so this resource gives Álvaro the complete system needed for exam questions.</p></div>
+<div class="explain"><h3>What job does the pronoun have?</h3><p>A pronoun replaces a noun so we do not repeat the same person or thing. The key is not only the form, but the <b>role</b> it plays in the sentence.</p><p>A <b>subject pronoun</b> performs the action. An <b>object pronoun</b> receives the action or follows a preposition.</p><div class="structure">SUBJECT + VERB + OBJECT</div><div class="example"><b>She</b> called <b>him</b>.</div><p><b>She</b> performs the action, so it is the subject. <b>Him</b> receives the action, so it is the object.</p></div>
+<table class="compare"><tr><th>Person</th><th>Subject</th><th>Object</th><th>Example</th></tr><tr><td>I</td><td>I</td><td>me</td><td>I study. / The teacher called me.</td></tr><tr><td>you</td><td>you</td><td>you</td><td>You work. / I spoke to you.</td></tr><tr><td>he</td><td>he</td><td>him</td><td>He arrived. / I saw him.</td></tr><tr><td>she</td><td>she</td><td>her</td><td>She called. / I invited her.</td></tr><tr><td>it</td><td>it</td><td>it</td><td>It works. / I need it.</td></tr><tr><td>we</td><td>we</td><td>us</td><td>We finished. / They helped us.</td></tr><tr><td>they</td><td>they</td><td>them</td><td>They left. / I met them.</td></tr></table>
+<div class="microgrid"><div class="micro"><strong>BEFORE THE VERB</strong><p>Use a subject pronoun when it does the action.</p><div class="example"><b>They</b> study English.</div></div><div class="micro"><strong>AFTER A VERB</strong><p>Use an object pronoun when it receives the action.</p><div class="example">I called <b>them</b>.</div></div><div class="micro"><strong>AFTER A PREPOSITION</strong><p>Use an object pronoun after to, for, with, from, etc.</p><div class="example">She spoke to <b>him</b>.</div></div></div>
+<div class="contrast-box"><div class="contrast-good">✓ María and <b>I</b> study together.<br>✓ The teacher spoke to María and <b>me</b>.</div><div class="contrast-bad">✗ María and <b>me</b> study together.<br>✗ The teacher spoke to María and <b>I</b>.</div></div>
+<div class="keyidea">Exam strategy: Remove the other name. “The teacher spoke to ___.” → “The teacher spoke to me.” This makes the correct form easier to identify.</div>
+
+<h2 class="section-title" style="margin-top:40px">2 · Possessive Adjectives & Pronouns</h2><div class="underline"></div>
+<div class="explain"><h3>Both show possession — but they do different jobs.</h3><p>A <b>possessive adjective</b> must be followed by a noun because it identifies the owner of that noun. A <b>possessive pronoun</b> replaces the noun completely.</p><div class="structure">possessive adjective + NOUN → my book / her laptop / their house</div><div class="structure">possessive pronoun ALONE → mine / hers / theirs</div></div>
+<table class="compare"><tr><th>Person</th><th>Possessive adjective</th><th>Possessive pronoun</th><th>Example pair</th></tr><tr><td>I</td><td>my</td><td>mine</td><td>my phone / The phone is mine.</td></tr><tr><td>you</td><td>your</td><td>yours</td><td>your bag / The bag is yours.</td></tr><tr><td>he</td><td>his</td><td>his</td><td>his keys / The keys are his.</td></tr><tr><td>she</td><td>her</td><td>hers</td><td>her notebook / The notebook is hers.</td></tr><tr><td>we</td><td>our</td><td>ours</td><td>our room / The room is ours.</td></tr><tr><td>they</td><td>their</td><td>theirs</td><td>their car / The car is theirs.</td></tr></table>
+<div class="trap">Common traps: <i>hers laptop</i>, <i>the laptop is her</i>, <i>mine book</i>. These forms mix the adjective and pronoun patterns.</div><div class="check">Fast check: If a noun appears immediately after the blank, use <b>my/your/his/her/our/their</b>. If the noun is already understood and not repeated, use <b>mine/yours/his/hers/ours/theirs</b>.</div>
+
+<h2 class="section-title" style="margin-top:40px">3 · Demonstratives: this / that / these / those</h2><div class="underline"></div>
+<div class="own-resource"><span class="tag">RESOURCE EMPHASIS</span><p><b>This topic is also developed more fully here.</b> The official exam syllabus includes demonstratives, so Álvaro needs a clear decision system based on number and distance.</p></div>
+<div class="explain"><h3>Two decisions control the answer.</h3><p>First decide whether the noun is <b>singular or plural</b>. Then decide whether it is conceptually <b>near or far</b> from the speaker.</p><div class="flow"><div><b>1</b>Singular or plural?</div><div><b>2</b>Near or far?</div><div><b>3</b>Choose the form</div></div></div>
+<table class="compare"><tr><th></th><th>Near</th><th>Far</th></tr><tr><td>Singular</td><td><b>this</b> book</td><td><b>that</b> book</td></tr><tr><td>Plural</td><td><b>these</b> books</td><td><b>those</b> books</td></tr></table>
+<div class="microgrid"><div class="micro"><strong>THIS</strong><p>One thing near.</p><div class="example">This laptop is mine.</div></div><div class="micro"><strong>THESE</strong><p>More than one thing near.</p><div class="example">These files are ready.</div></div><div class="micro"><strong>THAT / THOSE</strong><p>Use for things farther away.</p><div class="example">Those buildings are new.</div></div></div>
+<div class="trap">Do not mix number: <i>this books</i> ✗ / <i>these book</i> ✗.</div><div class="keyidea">Exam strategy: Look at the noun first. If it is plural, eliminate <b>this</b> and <b>that</b> immediately.</div>
+
+<h2 class="section-title" style="margin-top:40px">4 · Possessive Nouns: 's / s' / of</h2><div class="underline"></div>
+<div class="explain"><h3>Possession can also be shown with nouns.</h3><p>Use <b>'s</b> after a singular owner. If a plural noun already ends in <b>-s</b>, usually add only the apostrophe. With objects, places, or longer noun phrases, <b>of</b> is also common.</p><div class="example">the manager<b>'s</b> office</div><div class="example">the students<b>'</b> laptops</div><div class="example">the door <b>of</b> the building</div></div>
+<div class="contrast-box"><div class="contrast-good">✓ Álvaro's notebook<br>✓ the teachers' room</div><div class="contrast-bad">✗ Álvaros notebook<br>✗ the teacher's room (if several teachers share it)</div></div>
+
+<h2 class="section-title" style="margin-top:40px">5 · Countable & Noncount Nouns</h2><div class="underline"></div>
+<div class="explain"><h3>Why does noun type matter?</h3><p>The count/noncount distinction controls articles, plural forms, and quantifiers. Before choosing <b>a/an, many, much, few, little</b>, identify the noun type.</p></div>
+<div class="grid2"><div class="card skyc"><h3>Countable nouns</h3><p>Individual items that can be counted.</p><div class="example">one chair → two chairs</div><div class="example">a question → three questions</div><p>They can use <b>a/an</b> in the singular and <b>many/a few</b> in the plural.</p></div><div class="card mintc"><h3>Noncount nouns</h3><p>Things treated as a mass, concept, material, or category.</p><div class="example">information · advice · furniture · equipment · money</div><p>They normally do not use <b>a/an</b> and do not take plural <b>-s</b>.</p></div></div>
+<div class="trap">Typical exam traps: <i>an information</i>, <i>advices</i>, <i>equipments</i>, <i>many money</i>.</div><div class="check">Correct patterns: <b>some information</b> · <b>a piece of advice</b> · <b>much money</b> · <b>a lot of equipment</b>.</div>
+
+<h2 class="section-title" style="margin-top:40px">6 · Singular & Plural Nouns</h2><div class="underline"></div>
+<div class="explain"><h3>Plural formation is not always just +s.</h3><p>Most nouns add <b>-s</b>, but spelling changes and irregular forms are common enough to appear as distractors.</p></div>
+<div class="grid3"><div class="card"><h3>Regular</h3><p>book → books<br>car → cars</p></div><div class="card yellowc"><h3>-es / spelling change</h3><p>box → boxes<br>city → cities<br>wife → wives</p></div><div class="card pinkc"><h3>Irregular</h3><p>person → people<br>child → children<br>man → men</p></div></div>
+<div class="keyidea">Exam strategy: Check subject–verb agreement too. <b>There is one box</b> but <b>There are two boxes</b>.</div>
+
+<h2 class="section-title" style="margin-top:40px">7 · Articles: a / an / the / zero article</h2><div class="underline"></div>
+<div class="explain"><h3>Articles show how the speaker identifies a noun.</h3><p><b>a/an</b> introduces one nonspecific singular count noun. <b>the</b> identifies something specific or already known. <b>Zero article</b> is common with general plural/noncount nouns, languages, subjects, and many meals.</p></div>
+<table class="compare"><tr><th>Form</th><th>Core idea</th><th>Example</th></tr><tr><td>a</td><td>one nonspecific singular count noun + consonant sound</td><td>a report · a university</td></tr><tr><td>an</td><td>one nonspecific singular count noun + vowel sound</td><td>an exam · an hour</td></tr><tr><td>the</td><td>specific / identifiable / unique in context</td><td>the report on my desk</td></tr><tr><td>—</td><td>general plural/noncount nouns; many general uses</td><td>Information is useful. / I study English.</td></tr></table>
+<div class="explain"><h3>a or an? Listen to the sound.</h3><p>The choice depends on pronunciation, not just the first letter.</p><div class="contrast-box"><div class="contrast-good">✓ <b>a university</b> /juː.../<br>✓ <b>an hour</b> /aʊ.../</div><div class="contrast-bad">✗ an university<br>✗ a hour</div></div></div>
+<div class="keyidea">Exam strategy: Before choosing an article, ask: Is the noun countable? Singular? Specific? Already known?</div>
+
+<h2 class="section-title" style="margin-top:40px">8 · There is / There are</h2><div class="underline"></div>
+<div class="explain"><h3>Use these structures to say that something exists or is present.</h3><p>Choose the verb according to the noun that follows.</p><div class="structure">There is + singular / noncount noun</div><div class="structure">There are + plural noun</div></div>
+<div class="grid2"><div class="card skyc"><h3>Singular / noncount</h3><div class="example">There is a bank near here.</div><div class="example">There is some information online.</div><p><b>Question:</b> Is there...?<br><b>Negative:</b> There isn't...</p></div><div class="card mintc"><h3>Plural</h3><div class="example">There are two buses outside.</div><div class="example">There are many questions.</div><p><b>Question:</b> Are there...?<br><b>Negative:</b> There aren't...</p></div></div>
+<div class="trap">Do not confuse <b>there</b> with <b>it</b>. “There is a problem” introduces existence. “It is serious” refers back to the problem.</div><div class="example">There is a problem. <b>It</b> is serious.</div>
+</div></section>
+
+<section class="sky"><div class="wrap">
+<h2 class="section-title">Vocabulary & exam context</h2><div class="underline"></div>
+<p class="lead">High-frequency nouns and contexts support the official vocabulary syllabus while practicing today's grammar.</p>
+<div class="vocab"><span>advice</span><span>information</span><span>equipment</span><span>furniture</span><span>money</span><span>document</span><span>application</span><span>office</span><span>building</span><span>transportation</span><span>health</span><span>technology</span><span>travel</span><span>education</span><span>work</span></div>
+<div class="context-grid"><div class="context"><strong>WORK</strong>There are three computers in the office. This one is mine.</div><div class="context"><strong>TRAVEL</strong>There is a hotel near the station. The hotel's entrance is on the left.</div><div class="context"><strong>EDUCATION</strong>These books are ours. We need some information for the project.</div></div>
+</div></section>
+
+<section class="white" id="practice"><div class="wrap">
+<h2 class="section-title">Practice Lab</h2><div class="underline"></div>
+<p class="lead">Four focused blocks. Each answer locks after one selection and gives immediate feedback.</p>
+<div class="assess-grid"><aside class="side">
+<button class="active" data-panel="pronouns">Pronouns & Possession<small>6 questions</small></button>
+<button data-panel="nouns">Nouns<small>6 questions</small></button>
+<button data-panel="articles">Articles<small>6 questions</small></button>
+<button data-panel="structures">Basic Structures<small>6 questions</small></button>
+</aside><main>
+<div class="panel active" id="panel-pronouns"><div class="scorebox"><strong><span id="spronouns">0</span>/6</strong><div class="mini-progress"><div class="mini-fill" id="fpronouns"></div></div></div><div id="pronounQs"></div></div>
+<div class="panel" id="panel-nouns"><div class="scorebox"><strong><span id="snouns">0</span>/6</strong><div class="mini-progress"><div class="mini-fill" id="fnouns"></div></div></div><div id="nounQs"></div></div>
+<div class="panel" id="panel-articles"><div class="scorebox"><strong><span id="sarticles">0</span>/6</strong><div class="mini-progress"><div class="mini-fill" id="farticles"></div></div></div><div id="articleQs"></div></div>
+<div class="panel" id="panel-structures"><div class="scorebox"><strong><span id="sstructures">0</span>/6</strong><div class="mini-progress"><div class="mini-fill" id="fstructures"></div></div></div><div id="structureQs"></div></div>
+</main></div>
+</div></section>
+
+<section class="mint" id="timed"><div class="wrap">
+<h2 class="section-title">Timed Cumulative Block</h2><div class="underline"></div>
+<p class="lead">Fifteen verified questions combining Sessions 1–3. Correct-answer positions are balanced across A, B, C and D. Suggested target: 10 minutes.</p>
+<div class="timer"><strong id="clock">10:00</strong><button class="btn primary" id="startTimer">Start timer</button><button class="btn secondary" id="resetTimer">Reset</button><span id="timerMsg"></span></div>
+<div class="scorebox"><strong><span id="stimed">0</span>/15</strong><div class="mini-progress"><div class="mini-fill" id="ftimed"></div></div><span id="timedDone">0 answered</span></div>
+<div id="timedQs"></div><div id="timedResult" class="card yellowc" style="display:none;margin-top:14px"></div>
+</div></section>
+
+<section class="white"><div class="wrap">
+<h2 class="section-title">Error Log</h2><div class="underline"></div>
+<p class="lead">Record the grammar category behind each error: pronoun role, possession, noun type, article choice, number, or sentence structure.</p>
+<table class="errorlog"><tr><th>Item / sentence</th><th>My answer</th><th>Correct idea</th><th>Why I missed it</th></tr>
+<tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+<tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+<tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+<tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+</table></div></section>
+
+<section class="mint" id="gamezone"><div class="wrap">
+<h2 class="section-title">Game Zone</h2><div class="underline"></div>
+<p class="lead">Two Wordwall-style activities to reinforce category recognition and fast decision-making.</p>
+<div style="display:grid;grid-template-columns:1fr;gap:16px">
+<div class="card"><h3>Game 1 · Form & Function Match</h3><p>Match each grammar form with its function.</p><div class="grid2" id="matchGrid" style="margin-top:14px"></div><div class="scorebox" style="margin-top:14px"><strong><span id="matchScore">0</span>/10</strong><div class="mini-progress"><div class="mini-fill" id="matchFill"></div></div></div><button class="btn secondary" id="resetMatch">Restart Game 1</button></div>
+<div class="card"><h3>Game 2 · Grammar Memory</h3><p>Find the six matching pairs. Each pair connects a rule with a correct example.</p><div id="memoryGrid" class="memory-grid" style="margin-top:14px"></div><div class="scorebox" style="margin-top:14px"><strong><span id="memoryScore">0</span>/10</strong><div class="mini-progress"><div class="mini-fill" id="memoryFill"></div></div></div><button class="btn secondary" id="resetMemory">Restart Game 2</button></div>
+</div></div></section>
+
+<section class="sky" id="homework"><div class="wrap">
+<h2 class="section-title">Homework</h2><div class="underline"></div>
+<div class="grid2">
+<div class="card mintc"><h3>Grammar in Use Intermediate</h3><p>Complete selected exercises on pronouns, possessives, count/noncount nouns and articles according to today's error pattern.</p><div class="bookref"><span class="badge">BOOK</span><span>Core review: pp. 134–141 + 154–155 + 158–165. Complementary article work: pp. 142–149. some/any: pp. 166–167.</span></div></div>
+<div class="card yellowc"><h3>Resource-based Review</h3><p>Review subject/object pronouns and demonstratives directly in this HTML because these two areas are developed more fully here than in the reference book.</p><div class="example">Target: Explain the rule in your own words before answering.</div></div>
+</div>
+<div class="review-note"><b>Independent review:</b> Revisit any category below 80% in the Practice Lab, then write one original example for each error type.</div>
+<div class="callout" style="margin-top:16px"><h3>Session 3 outcome</h3><p class="hand">Reduce errors in reference, number and articles.</p><p>Next session: Adjectives, adverbs and quantifiers.</p></div>
+</div></section>
+
+<footer class="footer"><strong>English with Mr. Rengifo</strong><div>Álvaro · Exam Preparation · Session 3 · Expanded Review · American English</div></footer>
+
+<script>
+const sets = {"pronouns": [{"q": "Daniel called ___.", "o": ["I", "me", "my", "mine"], "a": 1, "e": "After a verb, use an object pronoun: Daniel called me."}, {"q": "___ are preparing for the exam.", "o": ["Us", "Our", "We", "Ours"], "a": 2, "e": "Use a subject pronoun before the verb: We are preparing for the exam."}, {"q": "This is ___ notebook.", "o": ["mine", "me", "my", "I"], "a": 2, "e": "Use a possessive adjective before a noun: my notebook."}, {"q": "This notebook is ___.", "o": ["my", "mine", "me", "I"], "a": 1, "e": "Use a possessive pronoun when the noun is not repeated: mine."}, {"q": "Laura spoke to Andrés and ___.", "o": ["I", "my", "mine", "me"], "a": 3, "e": "After the preposition to, use the object pronoun me."}, {"q": "Those keys belong to Sofia. They are ___.", "o": ["her", "hers", "she", "their"], "a": 1, "e": "Hers is a possessive pronoun and can stand alone."}], "nouns": [{"q": "We need three ___.", "o": ["information", "piece of information", "pieces of information", "informations"], "a": 2, "e": "Information is noncount; use pieces of information to count it."}, {"q": "There are two ___ on the desk.", "o": ["boxs", "boxes", "box", "boxies"], "a": 1, "e": "Box forms the plural with -es: boxes."}, {"q": "I bought some ___.", "o": ["furnitures", "furniture", "a furniture", "furnitures pieces"], "a": 1, "e": "Furniture is a noncount noun in standard English."}, {"q": "The ___ office is on the second floor. (manager)", "o": ["manager", "managers", "manager's", "managers'"], "a": 2, "e": "Use possessive 's with a singular owner: the manager's office."}, {"q": "Which noun is countable?", "o": ["advice", "equipment", "chair", "traffic"], "a": 2, "e": "Chair is countable; the others are normally noncount."}, {"q": "Which is correct?", "o": ["many money", "much money", "a few money", "an money"], "a": 1, "e": "Money is noncount, so much money is grammatical."}], "articles": [{"q": "I need ___ umbrella because it is raining.", "o": ["a", "the", "an", "—"], "a": 2, "e": "Umbrella begins with a vowel sound, so use an."}, {"q": "She is ___ engineer.", "o": ["an", "a", "the", "—"], "a": 0, "e": "Engineer begins with a vowel sound: an engineer."}, {"q": "Please close ___ door. We both know which door.", "o": ["a", "an", "—", "the"], "a": 3, "e": "Use the for a specific, identifiable noun."}, {"q": "I usually have ___ breakfast at 7:00.", "o": ["a", "an", "the", "—"], "a": 3, "e": "Meals normally take zero article when used generally: have breakfast."}, {"q": "He bought ___ new laptop yesterday.", "o": ["the", "a", "an", "—"], "a": 1, "e": "First mention of one nonspecific singular count noun: a new laptop."}, {"q": "___ Pacific Ocean is very large.", "o": ["A", "An", "The", "—"], "a": 2, "e": "Names of oceans take the: the Pacific Ocean."}], "structures": [{"q": "___ a pharmacy near my house.", "o": ["There are", "It is", "There is", "They are"], "a": 2, "e": "Use There is with one singular noun: There is a pharmacy."}, {"q": "___ two buses outside.", "o": ["There are", "There is", "It has", "There has"], "a": 0, "e": "Use There are with plural nouns."}, {"q": "___ books here are mine. (near the speaker)", "o": ["That", "Those", "This", "These"], "a": 3, "e": "These refers to plural things near the speaker."}, {"q": "Look at ___ building over there.", "o": ["these", "those", "that", "this"], "a": 2, "e": "That refers to one thing farther away."}, {"q": "Is there any milk? — No, ___.", "o": ["there isn't", "it isn't", "there aren't", "there doesn't"], "a": 0, "e": "The short negative answer is: No, there isn't."}, {"q": "___ any students in the classroom?", "o": ["Is there", "Are there", "There are", "Do there"], "a": 1, "e": "Use Are there...? with plural nouns."}], "timed": [{"q":"My sister usually ___ to work by bus.","o":["is going","went","goes","has gone"],"a":2,"e":"Usually signals a routine, so Simple Present: goes."},{"q":"I ___ the report yesterday.","o":["finished","have finished","finish","am finishing"],"a":0,"e":"Yesterday is a finished past-time expression, so use Simple Past."},{"q":"She ___ for the exam for two hours.","o":["studied","has studied","was studying","has been studying"],"a":3,"e":"Duration continuing until now: Present Perfect Continuous."},{"q":"Have you submitted the form ___?","o":["since","yet","for","already"],"a":1,"e":"Yet is natural at the end of Present Perfect questions."},{"q":"María and I are classmates. ___ study together.","o":["Us","Ours","We","Our"],"a":2,"e":"We is the subject pronoun before the verb study."},{"q":"The teacher gave ___ the instructions. (I)","o":["me","I","my","mine"],"a":0,"e":"After the verb gave, use the object pronoun me."},{"q":"This is ___ calculator, but that one is ___.","o":["my / mine","mine / my","me / mine","my / me"],"a":0,"e":"Use my before a noun and mine without the noun."},{"q":"We need ___ information before we decide.","o":["an","many","a few","some"],"a":3,"e":"Information is noncount; some information is correct."},{"q":"There ___ two computers in the room.","o":["is","are","be","has"],"a":1,"e":"Two computers is plural, so use There are."},{"q":"I saw ___ interesting documentary last night.","o":["a","an","the","—"],"a":1,"e":"Interesting begins with a vowel sound, so use an."},{"q":"___ files on this desk are mine. (near us)","o":["That","This","These","Those"],"a":2,"e":"These is plural and refers to things near the speaker."},{"q":"The ___ laptops are new. (students)","o":["student's","students","student","students'"],"a":3,"e":"Plural owners ending in -s take an apostrophe after s: students' laptops."},{"q":"My parents ___ in Lima since 2018.","o":["live","lived","have lived","are living"],"a":2,"e":"Since 2018 gives a starting point that connects past and present, so use Present Perfect: have lived."},{"q":"Please give the documents to Ana and ___.","o":["I","me","my","mine"],"a":1,"e":"After the preposition to, use the object pronoun me."},{"q":"___ an ATM near the entrance.","o":["There is","There are","It is","They are"],"a":0,"e":"ATM is singular, so use There is."}]};
+const state={pronouns:[],nouns:[],articles:[],structures:[],timed:[]},scores={pronouns:0,nouns:0,articles:0,structures:0,timed:0};
+
+function renderSet(name,container){
+ const root=document.getElementById(container);root.innerHTML="";
+ state[name]=sets[name].map(()=>false);scores[name]=0;updateScore(name);
+ sets[name].forEach((x,i)=>{
+  const el=document.createElement("div");el.className="qcard";
+  el.innerHTML=`<div class="qnum">${name==="timed"?"Timed item":"Question"} ${i+1}</div><div class="qtext">${x.q}</div><div class="options">${x.o.map((v,j)=>`<button class="option" data-set="${name}" data-i="${i}" data-o="${j}">${v}</button>`).join("")}</div><div class="feedback" id="fb-${name}-${i}"></div>`;
+  root.appendChild(el)
+ });
+ root.querySelectorAll(".option").forEach(b=>b.addEventListener("click",()=>answer(b.dataset.set,+b.dataset.i,+b.dataset.o)))
+}
+let timedFinished=false;
+function answer(name,i,j){
+ if(state[name][i])return;state[name][i]=true;const x=sets[name][i];
+ const btns=[...document.querySelectorAll(`[data-set="${name}"][data-i="${i}"]`)];btns.forEach(b=>b.disabled=true);
+ const fb=document.getElementById(`fb-${name}-${i}`);
+ if(j===x.a){scores[name]++;btns[j].classList.add("correct");fb.className="feedback show good";fb.textContent="Correct. "+x.e}
+ else{btns[j].classList.add("wrong");btns[x.a].classList.add("correct");fb.className="feedback show bad";fb.textContent="Review. "+x.e}
+ updateScore(name);if(name==="timed"&&state.timed.filter(Boolean).length===sets.timed.length&&!timedFinished)finishTimedBlock()
+}
+function updateScore(name){
+ const total=sets[name].length,done=state[name]?.filter(Boolean).length||0;
+ const s=document.getElementById("s"+name),f=document.getElementById("f"+name);
+ if(s)s.textContent=scores[name];if(f)f.style.width=(done/total*100)+"%";
+ if(name==="timed")document.getElementById("timedDone").textContent=`${done} answered`
+}
+document.querySelectorAll(".side button").forEach(btn=>btn.addEventListener("click",()=>{
+ document.querySelectorAll(".side button").forEach(x=>x.classList.remove("active"));
+ document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
+ btn.classList.add("active");document.getElementById("panel-"+btn.dataset.panel).classList.add("active")
+}));
+renderSet("pronouns","pronounQs");renderSet("nouns","nounQs");renderSet("articles","articleQs");renderSet("structures","structureQs");renderSet("timed","timedQs");
+
+let remaining=600,timer=null,elapsedSeconds=0;
+function drawClock(){const m=String(Math.floor(Math.max(remaining,0)/60)).padStart(2,"0"),s=String(Math.max(remaining,0)%60).padStart(2,"0");document.getElementById("clock").textContent=`${m}:${s}`}
+function formatElapsed(sec){return `${Math.floor(sec/60)} min ${String(sec%60).padStart(2,"0")} sec`}
+function finishTimedBlock(){
+ timedFinished=true;if(timer){clearInterval(timer);timer=null}
+ const correct=scores.timed,incorrect=15-correct,pct=Math.round(correct/15*100),result=document.getElementById("timedResult");
+ let pace=elapsedSeconds<=480?"Fast pace":elapsedSeconds<=600?"Good exam pace":"Needs faster pacing";
+ let accuracy=pct>=92?"Excellent accuracy":pct>=83?"Strong accuracy":pct>=75?"Exam-level accuracy":"Accuracy needs reinforcement";
+ let improve=incorrect===0?["Maintain this accuracy while keeping the same pace."]:["Classify each error: pronoun, noun, article, possession, number or tense.",incorrect>=3?"Prioritize accuracy before increasing speed.":"Keep the pace, but verify the grammar category before choosing."];
+ result.innerHTML=`<h3>Timed Block Feedback</h3><p><b>Time:</b> ${formatElapsed(elapsedSeconds)} · <b>Correct:</b> ${correct}/12 · <b>Incorrect:</b> ${incorrect}/12</p><div class="grid2"><div class="card mintc"><h3>${accuracy}</h3><p>${pct}% correct.</p></div><div class="card skyc"><h3>${pace}</h3><p>${elapsedSeconds<=600?"You completed the block within the suggested 10-minute target.":"You went beyond the suggested 10-minute target."}</p></div></div><div class="rule"><b>Points to improve:</b><ul>${improve.map(x=>`<li>${x}</li>`).join("")}</ul></div>`;
+ result.style.display="block";document.getElementById("timerMsg").textContent="Completed — timer stopped automatically."
+}
+document.getElementById("startTimer").addEventListener("click",()=>{if(timer||timedFinished)return;document.getElementById("timerMsg").textContent="";timer=setInterval(()=>{remaining--;elapsedSeconds++;drawClock();if(remaining<=0){clearInterval(timer);timer=null;document.getElementById("timerMsg").textContent="10-minute target reached — continue if needed."}},1000)});
+document.getElementById("resetTimer").addEventListener("click",()=>{clearInterval(timer);timer=null;remaining=600;elapsedSeconds=0;timedFinished=false;drawClock();document.getElementById("timerMsg").textContent="";document.getElementById("timedResult").style.display="none";renderSet("timed","timedQs")});
+
+function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+const matchPairs=[["subject pronoun","before the verb as the subject"],["object pronoun","after a verb or preposition"],["possessive adjective","before a noun"],["possessive pronoun","replaces the noun"],["there are","plural existence"]];
+let matchLeft=null,matchRight=null,matchDone=0;
+function renderMatch(){
+ matchLeft=matchRight=null;matchDone=0;document.getElementById("matchScore").textContent="0";document.getElementById("matchFill").style.width="0%";
+ const grid=document.getElementById("matchGrid");grid.innerHTML="";const left=document.createElement("div"),right=document.createElement("div");
+ shuffle(matchPairs.map((p,i)=>({i,t:p[0]}))).forEach(x=>{const b=document.createElement("button");b.className="match-choice";b.textContent=x.t;b.dataset.i=x.i;b.dataset.side="l";b.onclick=()=>selectMatch(b);left.appendChild(b)});
+ shuffle(matchPairs.map((p,i)=>({i,t:p[1]}))).forEach(x=>{const b=document.createElement("button");b.className="match-choice";b.textContent=x.t;b.dataset.i=x.i;b.dataset.side="r";b.onclick=()=>selectMatch(b);right.appendChild(b)});grid.append(left,right)
+}
+function selectMatch(btn){
+ if(btn.classList.contains("done"))return;const side=btn.dataset.side;document.querySelectorAll(`.match-choice[data-side="${side}"]`).forEach(x=>x.classList.remove("selected"));btn.classList.add("selected");
+ if(side==="l")matchLeft=btn;else matchRight=btn;
+ if(matchLeft&&matchRight){if(matchLeft.dataset.i===matchRight.dataset.i){matchLeft.classList.remove("selected");matchRight.classList.remove("selected");matchLeft.classList.add("done");matchRight.classList.add("done");matchDone++;document.getElementById("matchScore").textContent=String(matchDone*2);document.getElementById("matchFill").style.width=(matchDone/5*100)+"%";matchLeft=matchRight=null}else{const a=matchLeft,b=matchRight;a.classList.add("bad");b.classList.add("bad");setTimeout(()=>{a.classList.remove("bad","selected");b.classList.remove("bad","selected")},300);matchLeft=matchRight=null}}
+}
+document.getElementById("resetMatch").addEventListener("click",renderMatch);
+
+const memoryPairs=[["Possessive adjective","This is her laptop."],["Possessive pronoun","This laptop is hers."],["Noncount noun","We need some information."],["Indefinite article","She is an engineer."],["Plural existence","There are two buses outside."],["Demonstrative near + plural","These books are mine."]];
+let memoryDeck=[],memoryFirst=null,memoryLock=false,memoryMatches=0;
+function renderMemory(){
+ memoryFirst=null;memoryLock=false;memoryMatches=0;document.getElementById("memoryScore").textContent="0";document.getElementById("memoryFill").style.width="0%";
+ memoryDeck=shuffle(memoryPairs.flatMap((p,i)=>[{pair:i,text:p[0]},{pair:i,text:p[1]}]));const grid=document.getElementById("memoryGrid");grid.innerHTML="";
+ memoryDeck.forEach((c,i)=>{const b=document.createElement("button");b.className="memory-card";b.innerHTML=`<span class="mem-num">${i+1}</span><span class="mem-face">${c.text}</span>`;b.addEventListener("click",()=>flipMemory(i,b));grid.appendChild(b)})
+}
+function flipMemory(i,b){
+ if(memoryLock||b.classList.contains("matched")||b.classList.contains("flipped"))return;b.classList.add("flipped");
+ if(memoryFirst===null){memoryFirst={i,b};return}memoryLock=true;const first=memoryFirst;
+ if(memoryDeck[first.i].pair===memoryDeck[i].pair){setTimeout(()=>{first.b.classList.remove("flipped");b.classList.remove("flipped");first.b.classList.add("matched");b.classList.add("matched");memoryMatches++;const pts=memoryMatches===6?10:Math.round(memoryMatches/6*10);document.getElementById("memoryScore").textContent=pts;document.getElementById("memoryFill").style.width=(memoryMatches/6*100)+"%";memoryFirst=null;memoryLock=false},300)}else{setTimeout(()=>{first.b.classList.remove("flipped");b.classList.remove("flipped");memoryFirst=null;memoryLock=false},650)}
+}
+document.getElementById("resetMemory").addEventListener("click",renderMemory);renderMatch();renderMemory();
+window.addEventListener("scroll",()=>{const h=document.documentElement.scrollHeight-innerHeight;document.getElementById("scrollProgress").style.width=(h?scrollY/h*100:0)+"%"});
+</script>
+</body></html>
